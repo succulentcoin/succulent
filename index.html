@@ -4,34 +4,118 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>$SUCC – A Succulent Chinese Meme Coin</title>
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #1a120c;
+      color: #f7e2a4;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      background-image: url('https://raw.githubusercontent.com/succulentcoin/succulent/main/assets/succ_preview_loop.mp4');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .logo {
+      margin-top: 40px;
+      width: 250px;
+      border-radius: 8px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      font-family: 'Bebas Neue', sans-serif;
+      margin: 20px 0 10px;
+    }
+
+    .tagline {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+      color: #f7e2a4;
+    }
+
+    .buttons a {
+      text-decoration: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: bold;
+      margin: 10px;
+      display: inline-block;
+      color: #1a120c;
+    }
+
+    .btn-yellow {
+      background-color: #f7e2a4;
+    }
+
+    .btn-blue {
+      background-color: #3daef5;
+      color: #fff;
+    }
+
+    .btn-red {
+      background-color: #e75b5b;
+      color: #fff;
+    }
+
+    .info {
+      max-width: 600px;
+      margin-top: 40px;
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 15px;
+    }
+
+    li {
+      margin: 10px 0;
+    }
+
+    .manifesto-btn {
+      margin: 40px auto;
+      padding: 12px 24px;
+      border-radius: 8px;
+      background-color: #f7e2a4;
+      color: #1a120c;
+      font-weight: bold;
+      display: inline-block;
+      cursor: pointer;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
-  <div class="bg-overlay">
-    <video autoplay muted loop id="bg-video">
-      <source src="assets/succ_preview_loop.mp4" type="video/mp4" />
-    </video>
+  <img src="https://raw.githubusercontent.com/succulentcoin/succulent/main/assets/succ-logo.png" alt="$SUCC Logo" class="logo" />
+
+  <h1>$SUCC</h1>
+  <p class="tagline">A Succulent Chinese Meme Coin</p>
+
+  <div class="buttons">
+    <a href="#" class="btn-yellow">BUY $SUCC</a>
+    <a href="#" class="btn-blue">Twitter</a>
+    <a href="#" class="btn-red">Chart</a>
   </div>
-  <div class="content">
-    <img src="assets/succ-logo.png" alt="$SUCC Logo" class="logo" />
-    <h1>$SUCC</h1>
-    <p class="tagline">A Succulent Chinese Meme Coin</p>
-    <div class="buttons">
-      <a href="#" class="btn yellow">BUY $SUCC</a>
-      <a href="#" class="btn blue">TWITTER</a>
-      <a href="#" class="btn red">CHART</a>
-    </div>
-    <section class="info">
-      <h2>WHAT IS THE CHARGE?</h2>
-      <p>$SUCC is a succulent Chinese meme coin, cooked up fresh on Solana.</p>
-      <ul>
-        <li>🥟 1B Total Supply</li>
-        <li>🍜 0% Tax</li>
-        <li>🔒 10% to dev (on bail)</li>
-        <li>🎉 90% to the people (democracy manifest!)</li>
-      </ul>
-    </section>
+
+  <div class="info">
+    <h2>WHAT IS THE CHARGE?</h2>
+    <p>$SUCC is a succulent Chinese meme coin, cooked up fresh on Solana.</p>
+    <ul>
+      <li>🥜 1B Total Supply</li>
+      <li>🍼 0% Tax</li>
+      <li>🔐 10% to dev (on bail)</li>
+      <li>🎉 90% to the people (democracy manifest!)</li>
+    </ul>
   </div>
+
+  <a href="#" class="manifesto-btn">🎥 Play Manifesto</a>
 </body>
 </html>
