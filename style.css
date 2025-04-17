@@ -93,7 +93,6 @@ h1 {
   cursor: pointer;
 }
 
-/* Modal */
 .modal {
   display: none;
   position: fixed;
